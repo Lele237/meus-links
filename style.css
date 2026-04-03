@@ -34,7 +34,7 @@ main{
 }
 main a{
   width: 100%;
-  background-color: #008897;
+  background-color: #bd002f;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -68,7 +68,7 @@ p{
 
 section {
   padding: 130px;
-  background-color: #ebebeb;
+  background-color: #bd002f;
   width: 500px;
 
   border-radius: 10px;
@@ -92,7 +92,7 @@ head img {
 }
 
 .footer{
-  color: #03004e;
+  color: #4e001a;
   font-size: 1rem;
   text-align: center;
   margin: 30px;
