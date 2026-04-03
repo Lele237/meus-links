@@ -8,7 +8,7 @@
 }
 
 body{
-  display: center;
+  display: flex;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(to bottom right, #d41746 0%, #d6063a 40%, #a8032c 60%, #5e0219 100%);
@@ -21,6 +21,8 @@ body{
   display: flex;
   flex-direction: column; 
   gap: 15px; 
+  width: 100%;
+  justify-content: center;
   align-items: center;
  
 }
