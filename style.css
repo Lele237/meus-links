@@ -57,7 +57,7 @@ main a{
   transition: .2s;
 
   /* ESCOLHA UM: cor OU gradiente */
-  background: linear-gradient(to right, #00374e, #051b25);
+  background: linear-gradient(to right, #cf0053, #5e0219);
 }
 
 main a:hover{
@@ -94,7 +94,7 @@ section {
 
 /* FOOTER */
 .footer{
-  color: #4e001a;
+  color: #4e001a;#
   font-size: 1rem;
   text-align: center;
   margin: 30px;
