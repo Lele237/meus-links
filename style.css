@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
   margin: 0;
@@ -11,10 +11,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(to bottom right, #d41746 0%, #d6063a 40%, #a8032c 60%, #5e0219 100%);
+  background-size: 200% 200%;
   min-height: 100vh;
-
-  /* FUNDO ROSA */
-  background: linear-gradient(to bottom right, #ff4d88, #d6004c);
 }
 
 /* CONTAINER */
@@ -42,62 +41,60 @@ main{
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  width: 100%;
 }
 
 /* BOTÕES */
 main a{
   width: 100%;
-  padding: 12px 20px;
+  padding: 10px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #fff;
   border-radius: 30px;
   cursor: pointer;
-  transition: .3s;
+  transition: .2s;
 
-  /* BOTÕES ROSA */
-  background: linear-gradient(to right, #ff4d88, #d6004c);
+  /* ESCOLHA UM: cor OU gradiente */
+  background: linear-gradient(to right, #00374e, #051b25);
 }
 
 main a:hover{
-  opacity: .9;
+  opacity: .85;
   transform: scale(1.05);
 }
 
 /* TÍTULO */
 h3{
   font-size: 2em;
-  color:#d6004c;
+  color:#97003c;
   text-align: center;
 }
 
 /* TEXTO */
 p{
-  font-size: 1.2em;
-  color: #333;
+  font-size: 1.5em;
 }
 
 /* CARD */
 section {
   padding: 60px;
-  background-color: #ffffff; /* AGORA BRANCO */
+  background-color: #ffff;
   width: 500px;
-  border-radius: 15px;
+  border-radius: 10px;
 
   display: flex;
   flex-direction: column; 
   gap: 15px;
   text-align: center;
 
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 10px 15px rgba(61, 61, 61, .4);
 }
 
 /* FOOTER */
 .footer{
-  color: #4e001a; /* corrigido (tinha um # sobrando) */
+  color: #4e001a;
   font-size: 1rem;
   text-align: center;
   margin: 30px;
@@ -106,7 +103,7 @@ section {
 /* RESPONSIVO */
 @media(max-width: 580px){
   section {
-    width: 90%;
+    width: 100%;
     padding: 30px;
   }
 
@@ -118,7 +115,11 @@ section {
     font-size: 1.3rem;
   }
 
+  main{
+    gap: 15px;
+  }
+
   p{
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 }
