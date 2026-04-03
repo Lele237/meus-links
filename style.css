@@ -49,8 +49,6 @@ main a{
    /* ESCOLHA UM: cor OU gradiente */
    background: linear-gradient(to right, #4e0012, #25050c);
 }
-
-}
 main a:hover{
   opacity: .85;
   transform: scale(1.05);
@@ -105,7 +103,7 @@ head img {
 }
 
 @media(max-width: 580px){
-  .section {
+  section {
     width: 100%;
     padding: 30px;
   }  
