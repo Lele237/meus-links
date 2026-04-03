@@ -11,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:linear-gradient(to bottom right, #0e59af 0%, #03004e 40%, #00464e 60%,#052523 100% );
+  background-image:linear-gradient(to bottom right, #d41746 0%, #d6063a 40%, #a8032c 60%, #5e0219 100% );
   background-size: 200% 200%;
 }
 
@@ -56,7 +56,7 @@ main a:hover{
 h3{
   font-family: "Russo One", sans-serif;
   font-size: 2em;
-  color:#008897;
+  color:#97003c;
   text-align: center;
 }
 
