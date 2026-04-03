@@ -19,7 +19,7 @@ body{
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
 }
 
 header img{
