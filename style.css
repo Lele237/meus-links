@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "sans-setif";
 }
 
 
@@ -71,7 +71,7 @@ p{
 
 section {
   padding: 130px;
-  background-color: #bd002f;
+  background-color: #ffff;
   width: 500px;
 
   border-radius: 10px;
