@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "lucida sans";
+  font-family:"Lexend Deca", sans-serif;
 }
 
 
@@ -41,7 +41,7 @@ main a{
   border: none;
   text-decoration: none;
   font-size: 1.5em;
-  color: #fff;
+  color: #fcd2dc;
   border-radius: 30px;
   font-family: "Lexend Deca", sans-serif;
   cursor: pointer;
