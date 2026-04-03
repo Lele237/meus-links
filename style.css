@@ -34,7 +34,7 @@ main{
 }
 main a{
   width: 100%;
-  background-color: #bd002f;
+  background-color: #ffff;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
