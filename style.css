@@ -24,8 +24,6 @@ body{
 
 header img{
   width: 140px;
-  display: block;
-  margin: 0 auto;
 }
 
 main{
@@ -89,7 +87,7 @@ section {
 head {
   display: flex;
   flex-direction: column;
-  align-items: left; 
+  align-items: center; 
 }
 
 head img {
