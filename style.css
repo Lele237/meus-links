@@ -57,7 +57,7 @@ main a{
   transition: .2s;
 
   /* ESCOLHA UM: cor OU gradiente */
-  background: linear-gradient(to right, #00374e, #051b25);
+  background: linear-gradient(to right, #4e0012, #25050c);
 }
 
 main a:hover{
