@@ -24,10 +24,6 @@ body{
   align-items: center;
 }
 
-header img{
-  width: 140px;
-}
-
 /* HEADER */
 header {
   display: flex;
@@ -59,6 +55,7 @@ main a{
   border-radius: 30px;
   cursor: pointer;
   transition: .2s;
+
 
   /* ESCOLHA UM: cor OU gradiente */
    background: linear-gradient(to right, #4e0012, #25050c);
@@ -126,3 +123,4 @@ section {
   p{
     font-size: 1.2em;
   }
+}
