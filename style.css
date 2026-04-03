@@ -51,7 +51,7 @@ main a{
   justify-content: space-between;
   text-decoration: none;
   font-size: 1.5em;
-  color: #fff;
+  color: #ffff;
   border-radius: 30px;
   cursor: pointer;
   transition: .2s;
@@ -81,7 +81,7 @@ p{
 /* CARD */
 section {
   padding: 60px;
-  background-color: #bd002f;
+  background-color: #ffff;
   width: 500px;
   border-radius: 10px;
 
