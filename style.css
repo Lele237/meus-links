@@ -35,7 +35,7 @@ main{
 main a{
   width: 100%;
   background-color: #fcd2dc;
-  padding: 30px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   border: none;
