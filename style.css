@@ -13,7 +13,6 @@ body{
   justify-content: center;
   background-image:linear-gradient(to bottom right, #d41746 0%, #d6063a 40%, #a8032c 60%, #5e0219 100% );
   background-size: 200% 200%;
-  height: 100vh
 }
 
 .container {
@@ -36,7 +35,7 @@ main{
 main a{
   width: 100%;
   background-color: #fcd2dc;
-  padding: 10px 30px;
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   border: none;
